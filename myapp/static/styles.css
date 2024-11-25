@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.hero {
+    background: linear-gradient(90deg, rgb(190, 62, 250) 0%, rgb(147, 105, 247) 100%);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+footer {
+    background-color: grey;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
